@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Dashes: Create Dash",
+        "command": "dashes"
+    },
+    {
+        "caption": "Dashes: Find Dashes",
+        "command": "finddashes"
+    }
+]

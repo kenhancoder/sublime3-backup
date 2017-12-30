@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"ConvertToUTF8",
+		"Generic Config",
+		"Git",
+		"GitGutter",
+		"GitSavvy",
+		"OmniMarkupPreviewer",
+		"OpenHere",
+		"Package Control",
+		"Red",
+		"requirementstxt",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Theme - Spacegray"
+	],
+	"repositories":
+	[
+	]
+}
