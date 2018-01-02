@@ -1,0 +1,13 @@
+
+# 忽略所有文件
+/*
+
+# 除MY_开头的Packages，此类Package有自定义代码
+!/MY_*
+
+# 除User，内有相关配置文件
+!/User
+
+!/README.md
+
+!/.gitignore

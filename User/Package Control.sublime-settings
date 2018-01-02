@@ -19,6 +19,7 @@
 		"requirementstxt",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimeREPL",
 		"Theme - Spacegray"
 	],
 	"repositories":
