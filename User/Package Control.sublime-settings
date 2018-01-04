@@ -8,6 +8,7 @@
 		"A File Icon",
 		"Anaconda",
 		"ConvertToUTF8",
+		"file-downloader",
 		"Generic Config",
 		"Git",
 		"GitGutter",
@@ -22,6 +23,7 @@
 		"Status Bar File Size",
 		"SublimeLinter",
 		"SublimeREPL",
+		"TerminalView",
 		"Theme - Spacegray"
 	],
 	"repositories":

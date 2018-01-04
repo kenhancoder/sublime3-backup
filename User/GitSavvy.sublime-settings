@@ -1,0 +1,7 @@
+// Settings in here override those in "GitSavvy/GitSavvy.sublime-settings",
+
+{
+    "show_commit_diff": "full",
+    "show_panel_for": ["pull", "push"],
+    "show_full_commit_info": true,
+}
