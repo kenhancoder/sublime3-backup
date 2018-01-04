@@ -8,7 +8,7 @@
 # 除User，内有相关配置文件
 !/User
 User/encoding_cache.json
-User/Package Control.cache
+User/Package Control.cache/
 
 !/README.md
 
