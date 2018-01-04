@@ -21,5 +21,6 @@
 	"spacegray_tabs_large": true,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"swallow_startup_errors": true,
 }
