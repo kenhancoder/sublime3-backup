@@ -1,0 +1,482 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"__",
+				"__openerp__\tOdoo manifest file common structure"
+			],
+			[
+				"odoo",
+				"odoo\tOdoo Python module file"
+			],
+			[
+				"act",
+				"act_window"
+			],
+			[
+				"period",
+				"period_id\tparam"
+			],
+			[
+				"peio",
+				"period_id\tparam"
+			],
+			[
+				"perio",
+				"period_id\tstatement"
+			],
+			[
+				"defa",
+				"default_model\tdefault_model attribute"
+			],
+			[
+				"batch",
+				"batch_id\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "EHR",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"EHR",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"EHR",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"iterm",
+				"iTerm: Open Here"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"termi",
+				"Terminal: Open Here"
+			],
+			[
+				"proje",
+				"Project Manager: Edit Project"
+			],
+			[
+				"project",
+				"Project Manager: Edit Project"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"open zsh",
+				"Terminal View: Open ZSH Terminal"
+			],
+			[
+				"git bal",
+				"Git: Blame"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gre",
+				"Gremlins: Find All"
+			],
+			[
+				"grem",
+				"Gremlins: Find All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"broew",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git:",
+				"Git: Blame"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git ",
+				"Git: Blame"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"gitgutter:",
+				"GitGutter: Show Diff Popup"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"git commit",
+				"git: commit"
+			],
+			[
+				"git diff",
+				"Git: Diff All Files"
+			]
+		],
+		"width": 448.0
+	},
+	"console":
+	{
+		"height": 539.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr"
+	],
+	"file_history":
+	[
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/payslip_info/static/src/js/widgets/erweb_payslip_password.js",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/termX/Default.sublime-keymap",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/User/termX.sublime-settings",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/termX/termX.sublime-settings",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/User/Terminal (OSX).sublime-settings",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/view/average_salary_view.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/wizard/generate_average_salary.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/odoo/openerp/addons/base/ir/ir_model.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/custom_addons/addons/hr_entry/hr_entry.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/odoo/addons/account/models/account_move.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/hr_job_transfer/job_transfer.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/hr_expense_custom/models/hr_expense.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/employee_rehire/models/employee_rehire.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/calendar_event/model/calendar_attendance.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/odoo/openerp/addons/base/ir/ir_actions.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_setting/wizard/payroll_copy_wizard.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/common_addons/addons/default_settings/hr_employee.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/smcc_instance/addons/ins_work_calendar/ins_calendar.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_calculate/models/payroll_utils.py",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/User/Projects/ehr.sublime-project",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/odoo/addons/crm/base_partner_merge.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/wizard/generate_average_salary_view.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/security/model_access.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/odoo/doc/howtos/website/basic-acl",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/odoo/addons/product/product_view.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/builder/models/module.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/builder/models/models.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/bi_view/models/bi_view.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/batch_process/unify_translation.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/approve_flow/model/approve_notify.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/approve_flow/model/approve_instance.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/import_excel_action/average_salary.py",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/tools/excel_to_xml.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/tools/payitem_excel_to_xml.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_custom_params/payroll_custom_params.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_calculate/wizard/hr_payslip_run_data_import.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_calculate/models/hr_payslip_run_report.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_calculate/tests/test_payroll_report_download.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_setting/payroll_data/pre_hr_payroll_function.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_calculate/wizard/hr_payslip_run_diff_wizard.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/personal_account_balance/models/hr_payslip_run.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_calculate/data/excel_report_data.xml",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/TerminalView/README.md",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/Gremlins/Example.sublime-keymap",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/.gitignore",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_calculate/models/hr_payslip_run.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/bridge_payroll_payslip/wizard/copy_batches.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/common_addons/addons/eroad_role/create_group.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/view/average_salary_rules_view.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/server_uat_zuoye.conf",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/__openerp__.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/common_addons/addons/eroad_role/__openerp__.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/custom_addons/addons/ey_richemont_payroll/wizard/sc_declare_report_view.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/custom_addons/addons/ey_richemont_payroll/i18n/zh_CN.po",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/i18n/zh_CN.po",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/bridge_payroll_payslip/hr_payroll.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/ehr_addons/addons/bridge_payroll_payslip/wizard/copy_batches_view.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/eyhkpoc/models/report_56_counter.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/eyhkpoc/wizard/report_56e.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/server_uat_aiib.conf",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/go_live/parameters.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/go_live/after.py",
+		"/Users/eroad1/Documents/test.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_base_info/payroll_archive.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_setting/payroll_data/hr_payroll_function.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/go_live/before.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/odoo/openerp/fields.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/s53/misc.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/s53/env.md",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/s53/before.sql",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/s53/after.sql",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/WordHighlight/Word Highlight.sublime-settings",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_average_salary/security/ir_rule.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/server_uat_richemont.conf",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/migration/go_live/server.conf",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/eroad_odoo_utils/jpush_cli/cli.py",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/approve_flow/view/approve_notify_view.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/approve_flow/task/agent_approve_task.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/base_addons/addons/bi_view/security/rules.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/social_security/security/model_access.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/social_security/security/social_security_security.xml",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/server_ehr1_1.conf",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/server_ehr2_1.conf",
+		"/Users/eroad1/Documents/Workspace/eroad/project/ehr/payroll_addons/addons/payroll_adjustment/salary_adjustment.py",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/eroad1/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+			"/Users/eroad1/Documents/Workspace/eroad/project/ehr,*.py",
+			"/Users/eroad1/Documents/Workspace/eroad/project/ehr,*.js",
+			"/Users/eroad1/Documents/Workspace/eroad/project/ehr,*.py",
+			"/Users/eroad1/Documents/Workspace/eroad/project/ehr,*.xml",
+			"/Users/eroad1/Documents/Workspace/eroad/project/ehr,*.py"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"terminal",
+			"self.env.cr",
+			"views",
+			"self.env.context",
+			"tree_id",
+			"action_id",
+			"result",
+			"tree_id",
+			"res",
+			"tree_id",
+			"tree_view and tree_view.id",
+			"res",
+			"get_object_reference",
+			"self.env.context",
+			"dftg_ext",
+			"'flags'",
+			"'type': 'ir.actions.act_window',",
+			"attribute",
+			"create='0'",
+			"create='false'",
+			"average_salary_tree_view",
+			"'type': 'ir.actions.act_window'",
+			"average_salary_form_view",
+			"'type': 'ir.actions.act_window',",
+			"average_salary_form_view"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 146.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "EHR",
+	"project": "ehr.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ba",
+				"odoo/doc/howtos/website/basic-acl"
+			],
+			[
+				"payroll_addons/addons/payroll_average_salary/wizard/generate_average_salary.py",
+				"payroll_addons/addons/payroll_average_salary/wizard/generate_average_salary.py"
+			],
+			[
+				"payroll_addons/addons/payroll_average_salary/view/average_salary_view.xml",
+				"payroll_addons/addons/payroll_average_salary/view/average_salary_view.xml"
+			],
+			[
+				"payroll_calculate/models/hr_payslip_run.py",
+				"payroll_addons/addons/payroll_calculate/models/hr_payslip_run.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
