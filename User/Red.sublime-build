@@ -1,0 +1,5 @@
+{
+    "shell_cmd": "red --cli \"$file\"",
+    "selector": "source.red",
+    "shell": true
+}

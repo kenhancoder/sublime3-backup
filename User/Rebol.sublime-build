@@ -1,0 +1,5 @@
+{
+    "shell_cmd": "rebol \"$file\"",
+    "selector": "source.rebol",
+    "shell": true
+}
