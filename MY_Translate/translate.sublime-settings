@@ -1,5 +1,5 @@
 {
-    "api": "google", //baidu
+    "api": "google",
     "source_language": "auto",
     "target_language": "zh-CN",
 }

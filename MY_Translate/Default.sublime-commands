@@ -3,4 +3,8 @@
         "caption": "Translate: Search Selection",
         "command": "translate_selection"
     },
+    {
+        "caption": "Translate: Translate ListInput",
+        "command": "ranslate_list_input"
+    }
 ]

@@ -6,24 +6,15 @@ import sublime_plugin
 import requests
 import json
 
-try:
-    # python2
-    from urllib import quote
-except ImportError:
-    # python3
-    from urllib.parse import quote
-
 api_url = {
     'google': 'https://translate.googleapis.com/translate_a/single',
-    'bing': 'http://www.bing.com/translator/api/Dictionary/Lookup',
 }
 
 
 def handle_data(api, data):
     if api == 'google':
         return ''.join([item[0] for item in data[0]])
-    elif api == 'bing':
-        pass
+
 
 def search(self, text):
     """
@@ -40,6 +31,7 @@ def search(self, text):
 
     settings = sublime.load_settings('translate.sublime-settings')
     api = settings.get('api').lower()
+
     if settings.get('source_language'):
         source_language = settings.get('source_language')
     if settings.get('target_language'):
@@ -51,10 +43,6 @@ def search(self, text):
         params['tl'] = target_language
         params['dt'] = "t"
         params['q'] = text
-    elif api == 'bing':
-        params['from'] = ''
-        params['to'] = ''
-        params['text'] = ''
 
     url = api_url.get(api, 'google')
     response = requests.get(url, params=params)
@@ -65,9 +53,25 @@ def search(self, text):
 
 
 class TranslateSelectionCommand(sublime_plugin.TextCommand):
+
     def run(self, edit):
+        self.input()
         for selection in self.view.sel():
             if selection.empty():
                 text = self.view.word(selection)
             text = self.view.substr(selection)
             search(self, text)
+
+print(dir(sublime_plugin.WindowCommand))
+# print(dir(sublime))
+# class InstallHandler(sublime_plugin.ListInputHandler):
+#     pass
+# class TranslateTargetInputHandler(sublime_plugin.ListInputHandler):
+#     def name(self):
+#         return "name"
+
+#     def placeholder(self):
+#         return "Name"
+
+#     def list_items(self):
+#         return ['zh-CN', 'en']
