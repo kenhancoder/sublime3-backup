@@ -1,10 +1,11 @@
-
-
+# -*- coding: utf-8 -*-
 import sublime
 import sublime_plugin
 
 import requests
 import json
+
+settings = sublime.load_settings('translate.sublime-settings')
 
 api_url = {
     'google': 'https://translate.googleapis.com/translate_a/single',
@@ -16,7 +17,7 @@ def handle_data(api, data):
         return ''.join([item[0] for item in data[0]])
 
 
-def search(self, text):
+def search(self, text, target_lang):
     """
         languge
         auto
@@ -25,22 +26,17 @@ def search(self, text):
     """
     params = {}
 
-    source_language = 'auto'
+    source_lang = 'auto'
 
-    target_language = 'zh-CN'
-
-    settings = sublime.load_settings('translate.sublime-settings')
     api = settings.get('api').lower()
 
-    if settings.get('source_language'):
-        source_language = settings.get('source_language')
-    if settings.get('target_language'):
-        target_language = settings.get('target_language')
+    if settings.get('source_lang'):
+        source_lang = settings.get('source_lang')
 
     if api == 'google':
         params['client'] = "gtx"
-        params['sl'] = source_language
-        params['tl'] = target_language
+        params['sl'] = source_lang
+        params['tl'] = target_lang
         params['dt'] = "t"
         params['q'] = text
 
@@ -52,26 +48,21 @@ def search(self, text):
         self.view.show_popup(popup_data, max_width=888, max_height=888)
 
 
-class TranslateSelectionCommand(sublime_plugin.TextCommand):
-
-    def run(self, edit):
-        self.input()
+class TranslateCommand(sublime_plugin.TextCommand):
+    def run(self, edit, **kw):
         for selection in self.view.sel():
             if selection.empty():
                 text = self.view.word(selection)
             text = self.view.substr(selection)
-            search(self, text)
+            search(self, text, kw['target_lang'])
 
-print(dir(sublime_plugin.WindowCommand))
-# print(dir(sublime))
-# class InstallHandler(sublime_plugin.ListInputHandler):
-#     pass
-# class TranslateTargetInputHandler(sublime_plugin.ListInputHandler):
-#     def name(self):
-#         return "name"
 
-#     def placeholder(self):
-#         return "Name"
+class TranslateSelectionCommand(sublime_plugin.TextCommand):
 
-#     def list_items(self):
-#         return ['zh-CN', 'en']
+    def run(self, edit):
+        langs = settings.get('langs')
+
+        def on_done(index):
+            if index >= 0:
+                self.view.run_command("translate", {"target_lang": langs[index]})
+        self.view.window().show_quick_panel(langs, on_done)

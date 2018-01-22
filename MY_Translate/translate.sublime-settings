@@ -1,5 +1,5 @@
 {
     "api": "google",
-    "source_language": "auto",
-    "target_language": "zh-CN",
+    "source_lang": "auto",
+    "langs": ["zh-CN"]
 }
