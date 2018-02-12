@@ -2,10 +2,10 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"disable_custom_title_bar": true,
-	"enable_tab_scrolling": false,
+	"enable_tab_scrolling": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "mononoki",
-	"font_size": 16,
+	"font_size": 14,
 	"http_proxy": "http://127.0.0.1:1087",
 	"https_proxy": "http://127.0.0.1:1087",
 	"ignored_packages":

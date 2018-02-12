@@ -5,7 +5,7 @@ import sublime_plugin
 import requests
 import json
 
-settings = sublime.load_settings('translate.sublime-settings')
+SETTINGS = {}
 
 api_url = {
     'google': 'https://translate.googleapis.com/translate_a/single',
@@ -28,10 +28,10 @@ def search(self, text, target_lang):
 
     source_lang = 'auto'
 
-    api = settings.get('api').lower()
+    api = SETTINGS.get('api')
 
-    if settings.get('source_lang'):
-        source_lang = settings.get('source_lang')
+    if SETTINGS.get('source_lang'):
+        source_lang = SETTINGS.get('source_lang')
 
     if api == 'google':
         params['client'] = "gtx"
@@ -60,9 +60,26 @@ class TranslateCommand(sublime_plugin.TextCommand):
 class TranslateSelectionCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        langs = settings.get('langs')
+        langs = SETTINGS.get('langs')
+        print(langs)
 
         def on_done(index):
             if index >= 0:
                 self.view.run_command("translate", {"target_lang": langs[index]})
         self.view.window().show_quick_panel(langs, on_done)
+
+
+def get_settings():
+    settings = sublime.load_settings('translate.sublime-settings')
+    SETTINGS['api'] = settings.get('api', 'google').lower()
+    SETTINGS['source_lang'] = settings.get('source_lang', 'auto')
+    SETTINGS['langs'] = settings.get('langs', ["zh-CN", "en"])
+
+
+def init_settings():
+    get_settings()
+    sublime.load_settings('translate.sublime-settings').add_on_change('get_settings', get_settings)
+
+
+def plugin_loaded():
+    init_settings()
