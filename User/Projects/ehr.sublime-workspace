@@ -213,7 +213,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/eroad1/Documents/Workspace/eroad/project/ehr"
+		"/Users/kenhan/Documents/Workspace/eroad/project/ehr"
 	],
 	"file_history":
 	[
@@ -311,7 +311,7 @@
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -379,7 +379,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -408,6 +408,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
 	"output.exec":
 	{
 		"height": 146.0
@@ -420,7 +424,7 @@
 	"project": "ehr.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

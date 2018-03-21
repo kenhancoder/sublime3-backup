@@ -2,6 +2,6 @@
   {
     "caption": "Terminal View: Open ZSH Terminal",
     "command": "terminal_view_open",
-    "args"   : {"title": "Terminal (zsh)", "cmd": "/bin/bash -l -c /bin/zsh"},
+    "args": {"title": "Terminal (zsh)", "cmd": "/bin/bash -c /bin/zsh"},
   },
 ]

@@ -1,3 +1,4 @@
 [
     { "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
+    { "keys": ["super+w"], "command": "tabs_extra_close_menu", "args": {"mode": "normal", "close_type": "single"}},
 ]

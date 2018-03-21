@@ -6,13 +6,5 @@
     {
         "caption": "Codelf: Search Selection",
         "command": "codelf_selection"
-    },
-    {
-        "caption": "E: Search from Input",
-        "command": "codelf_from_input"
-    },
-    {
-        "caption": "E: Search Selection",
-        "command": "codelf_selection"
     }
 ]

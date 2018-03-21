@@ -1,0 +1,7 @@
+[
+    {"keys": ["super+alt+up"], "command": "terminal_view_scroll", "args": {"forward": false}, "context": [{"key": "setting.terminal_view"}]},
+    {"keys": ["super+alt+down"], "command": "terminal_view_scroll", "args": {"forward": true}, "context": [{"key": "setting.terminal_view"}]},
+
+    {"keys": ["super+v"], "command": "terminal_view_paste", "context": [{"key": "setting.terminal_view"}]},
+    {"keys": ["super+c"], "command": "terminal_view_copy", "context": [{"key": "setting.terminal_view"}]},
+]

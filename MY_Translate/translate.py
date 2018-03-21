@@ -50,11 +50,14 @@ def search(self, text, target_lang):
 
 class TranslateCommand(sublime_plugin.TextCommand):
     def run(self, edit, **kw):
+        text_ls = []
         for selection in self.view.sel():
             if selection.empty():
                 text = self.view.word(selection)
-            text = self.view.substr(selection)
-            search(self, text, kw['target_lang'])
+            else:
+                text = self.view.substr(selection)
+            text_ls.append(text)
+        search(self, ''.join(text_ls), kw['target_lang'])
 
 
 class TranslateSelectionCommand(sublime_plugin.TextCommand):
