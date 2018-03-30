@@ -9,6 +9,7 @@
 		"Anaconda",
 		"Asciidoctor",
 		"ConvertToUTF8",
+		"DashDoc",
 		"file-downloader",
 		"Generic Config",
 		"Git",
@@ -31,8 +32,7 @@
 		"Status Bar File Size",
 		"SublimeLinter",
 		"SublimeREPL",
-		"Terminality",
-		"TerminalView",
+		"TabsExtra",
 		"Theme - Spacegray"
 	],
 	"repositories":

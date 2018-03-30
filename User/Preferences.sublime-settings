@@ -5,11 +5,12 @@
 	"enable_tab_scrolling": true,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "mononoki",
-	"font_size": 19,
+	"font_size": 17,
 	"http_proxy": "http://127.0.0.1:1087",
 	"https_proxy": "http://127.0.0.1:1087",
 	"ignored_packages":
 	[
+		"External REPL",
 		"Vintage"
 	],
 	"line_padding_bottom": 2,

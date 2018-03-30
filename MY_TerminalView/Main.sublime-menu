@@ -1,0 +1,47 @@
+[
+    {
+        "caption": "Preferences",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "TerminalView",
+                        "children":
+                        [
+                            {
+                                "command": "edit_settings",
+                                "args": {"base_file": "${packages}/MY_TerminalView/TerminalView.sublime-settings", "default": "{}"},
+                                "caption": "Settings"
+                            },
+                            {
+                                "command": "edit_settings",
+                                "args": {"base_file": "${packages}/MY_TerminalView/Default.sublime-keymap", "default": "[]"},
+                                "caption": "Keybindings"
+                            },
+                            {
+                                "command": "edit_settings",
+                                "args": {"base_file": "${packages}/MY_TerminalView/TerminalView.hidden-tmTheme", },
+                                "caption": "Color Scheme"
+                            },
+                            {
+                                "command": "edit_settings",
+                                "args": {"base_file": "${packages}/MY_TerminalView/TerminalView.sublime-commands", "default": "[]"},
+                                "caption": "Palette Commands",
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/MY_TerminalView/README.md"},
+                                "caption": "Readme"
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
